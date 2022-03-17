@@ -1,0 +1,23 @@
+IDENTIFICATION DIVISION.
+PROGRAM-ID. Prog.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+CONST Z = 1 .
+B INTEGER.
+X FLOAT.
+C FLOAT.
+CONST Bb = 1.8 .
+CONST Aa = 2.
+CONST Cc = 5.6.
+PROCEDURE DIVISION.
+C = 2.8 / 10.
+Aa = (B / (A+X))-C .
+#Commentaire aussi
+Commentaire!
+B = Z.
+ACCEPT ("$":@C).
+DISPLAY ("ENTIER $": C). 
+IF(5.G.3): IF(1.G.2): B=8+3. END ELSE: B=99. Z=Z-1. END
+IF( (Aa .GE. Bb) .AND. (Bb .GE. Cc) .OR. (NOT (Cc .EQ. Aa) .AND. (Aa .EQ. Bb))):
+END
+STOP RUN.
